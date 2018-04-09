@@ -14,6 +14,7 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
 
     int myNumOfTabs;
 
+
     public PagerAdapter(FragmentManager fm,int myNumOfTabs) {
         super(fm);
         this.myNumOfTabs=myNumOfTabs;
